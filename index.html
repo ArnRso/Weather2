@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="weatherContainer">
+      <input type="text" class="searchControl" placeholder="City Name" />
+      <button class="searchControl" id="searchBtn">Search</button>
+    </div>
+    <div class="weatherDescription">
+      <h1 id="cityHeader"></h1>
+      <div id="weatherMain">
+        <div id="temperature"></div>
+        <div id="weatherDescriptionHeader"></div>
+        <div><img id="documentIconImg" /></div>
+      </div>
+      <hr />
+      <div id="windSpeed" class="bottom-details"></div>
+      <div id="humidity" class="bottom-details"></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
